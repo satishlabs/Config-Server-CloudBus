@@ -36,6 +36,7 @@ public class BookStoreWebController {
 		List<String> booksList = bookSearchProxy.getAllBooks();
 		booksList.add(myport);
 		booksList.add(message);
+		
 		return booksList;
 	}
 }
