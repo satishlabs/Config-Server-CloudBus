@@ -11,5 +11,4 @@ public class BookSearchMsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(BookSearchMsApplication.class, args);
 	}
-
 }
